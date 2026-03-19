@@ -1,0 +1,16 @@
+ESCREVA SEU NOME E IDADE
+package primeiraula;
+import java.util.Scanner;
+public class aulaum {
+	public static void main(String[] args) {
+		String nome;
+		int idade;
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Informe seu nome:");
+		nome=teclado.next();
+		System.out.print("Qual sua Idade:");
+		idade=teclado.nextInt();
+				teclado.close();
+}
+}
+
