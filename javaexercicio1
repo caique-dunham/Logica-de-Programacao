@@ -1,0 +1,11 @@
+LINHAS
+package primeiraula;
+public class aulaum {
+	public static void main(String[] args) {
+		System.out.println("Linha um");
+		System.out.print("Linha dois ");
+		System.out.println("Linha dois.1");
+		System.out.print("Linha tres");
+		
+}
+}
