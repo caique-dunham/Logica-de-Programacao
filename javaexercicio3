@@ -1,0 +1,16 @@
+EXERCICIO DIAS DE VIDA
+package primeiraula;
+public class aulaum {
+	public static void main(String[] args) {
+		String nome="Caique";
+		int anos, meses, dias,diasdevida;
+		anos =15* 365;
+		meses =4*30;
+		dias =3;
+	 diasdevida=anos+meses+dias;
+		System.out.println("Nome:"+nome);
+	 System.out.println("Dias de Vida:"+diasdevida);
+		
+		
+}
+}
