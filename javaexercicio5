@@ -1,0 +1,13 @@
+CONVERSÃO DE TEMPERATURA
+package aula2;
+import java.util.Scanner;
+public class auladois {
+	public static void main(String[] args) {
+		Scanner entrada=new Scanner(System.in);
+		double fahreheit,celsius;
+		System.out.println("temperatura em celsius:");
+		celsius=entrada.nextDouble();
+		fahreheit=((9*celsius)+160)/5;
+		System.out.print("temperatura em fahreheit:"+ fahreheit);
+	}
+}
