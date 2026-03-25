@@ -2,11 +2,12 @@ TOTAL DE TEMPO EM SEGUNDOS
 package aula2;
 import java.util.Scanner;
 public class auladois {
+
 	public static void main(String[] args) {
 		Scanner entrada=new Scanner(System.in);
+		System.out.println("Nome de usuario:");
 		String usuario;
-		usuario="Caique";
-		System.out.println("Nome do usuario:"+usuario);
+		usuario=entrada.next();
 		double horas,min,seg,total;
 		System.out.println("Horas:");
 		horas=entrada.nextDouble()*3600;
@@ -20,3 +21,4 @@ public class auladois {
 		System.out.print("Total de tempo em segundos:" + total);		
 	}
 }
+
