@@ -1,0 +1,34 @@
+Copyright (c) 2026 Caíque Dunham
+
+Todos os direitos reservados.
+
+Este código é disponibilizado apenas para visualização.
+Não é permitido copiar, modificar, distribuir ou utilizar este código, total ou parcialmente, sem autorização prévia por escrito do autor.
+
+10% de desconto se a compra for acima de R$ 500,00. Caso contrário,
+não há desconto. Faça um algoritmo que leia o valor da compra e imprima o valor total a ser
+pago, informando o desconto se existir.
+  
+package aula3;
+import java.util.Scanner;
+public class aulatres {
+	public static void main(String[] args) {
+		Scanner entrada=new Scanner (System.in);
+		double valorC;
+double desconto=0;
+double valorF;
+System.out.print("Digite o valor da compra:");
+valorC=entrada.nextDouble();
+  if (valorC > 500) {	
+desconto = valorC*0.10;
+  }else {
+System.out.println ("Sem desconto");
+}
+valorF= valorC - desconto;
+System.out.println("Valor da compra:" + valorC);
+System.out.println("Desconto:"+desconto);
+System.out.println("Valor final a pagar:"+valorF);
+}
+}
+
+
