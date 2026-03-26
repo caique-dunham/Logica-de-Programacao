@@ -1,0 +1,22 @@
+Copyright (c) 2026 Caíque Dunham
+
+Todos os direitos reservados.
+
+Este código é disponibilizado apenas para visualização.
+Não é permitido copiar, modificar, distribuir ou utilizar este código, total ou parcialmente, sem autorização prévia por escrito do autor.
+  IDENTIFICAR PAR OU IMPAR
+package aula3;
+import java.util.Scanner;
+public class aulatres {
+	public static void main(String[] args) {
+		Scanner entrada=new Scanner (System.in);
+		int numA;
+		System.out.println("numA:");
+		numA=entrada.nextInt();
+		if (numA%2==0) {
+			System.out.println("numA:PAR");
+		} else {
+			System.out.print("numA:IMPAR");
+	 }
+}
+}
