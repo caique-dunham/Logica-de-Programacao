@@ -6,7 +6,7 @@ Este código é disponibilizado apenas para visualização.
 Não é permitido copiar, modificar, distribuir ou utilizar este código, total ou parcialmente, sem autorização prévia por escrito do autor.
 
 Dois valores inteiros A e B se os valores forem iguais deverá
-se somar os dois, caso contrário multiplique A por B.
+se somar os dois,caso contrário multiplique A por B.
 
 package aula3;
 import java.util.Scanner;
