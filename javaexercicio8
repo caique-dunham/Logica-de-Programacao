@@ -1,0 +1,24 @@
+Copyright (c) 2026 Caíque Dunham
+
+Todos os direitos reservados.
+
+Este código é disponibilizado apenas para visualização.
+Não é permitido copiar, modificar, distribuir ou utilizar este código, total ou parcialmente, sem autorização prévia por escrito do autor.
+  A+B MAIOR QUE C OU NAO
+  MAIOR DE IDADE OU NAO
+package aula3;
+import java.util.Scanner;
+public class aulatres {
+	public static void main(String[] args) {
+		Scanner entrada=new Scanner (System.in);
+		int idade;
+		System.out.println("Idade:");
+		idade=entrada.nextInt();
+		entrada.close();
+		if (idade>=18) {
+			System.out.println("Maior de idade");
+		} else {
+			System.out.print("Menor de idade");
+	 }
+}
+}
