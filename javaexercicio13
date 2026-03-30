@@ -1,0 +1,44 @@
+Copyright (c) 2026 Caíque Dunham
+
+Todos os direitos reservados.
+
+Este código é disponibilizado apenas para visualização.
+Não é permitido copiar, modificar, distribuir ou utilizar este código, total ou parcialmente, sem autorização prévia por escrito do autor.
+
+  Identificar o mês do ano
+
+package aula3;
+import java.util.Scanner;
+public class aulatres {
+	public static void main(String[] args) {
+		Scanner entrada=new Scanner(System.in);
+		int mes;
+		System.out.println("Mes:");
+		mes=entrada.nextInt();
+		 if(mes==1) {
+		System.out.print("Janeiro");	
+		 }else if(mes==2){
+		System.out.print("Fevereiro");	
+	 }else if(mes==3){
+		System.out.print("Março");	
+		 }else if(mes==4){
+		System.out.print("Abril");	
+		 }else if(mes==5){
+		System.out.print("Maio");	
+		 }else if(mes==6){
+		System.out.print("Junho");	
+		 }else if(mes==7){
+		System.out.print("Julho");
+		 }else if(mes==8){
+		System.out.print("Agosto");	
+		 }else if(mes==9) {
+		System.out.print("Setembro");	
+		 }else if(mes==10){
+	 System.out.print("Outubro");
+		 }else if(mes==11){
+		System.out.print("Novembro");	
+		 }else{
+		System.out.print("Dezembro");	
+		 }
+}
+}
