@@ -1,0 +1,34 @@
+Copyright (c) 2026 Caíque Dunham
+
+Todos os direitos reservados.
+
+Este código é disponibilizado apenas para visualização.
+Não é permitido copiar, modificar, distribuir ou utilizar este código, total ou parcialmente, sem autorização prévia por escrito do autor.
+
+Boda anos de casamento
+
+  package aula3;
+import java.util.Scanner;
+public class aulatres {
+	public static void main(String[] args) {
+		Scanner entrada=new Scanner(System.in);
+		int anos;
+		System.out.println("Anos de casamento:");
+		anos=entrada.nextInt();
+		 if(anos==1) {
+		System.out.print("Bodas de Papel");	
+		 }else if(anos==10){
+		System.out.print("Bodas de Estanho");	
+		 }else if(anos==20){
+		System.out.print("Bodas de Porcelana");	
+		 }else if(anos==30){
+		System.out.print("Bodas de Porcelana");	
+		 }else if(anos==40){
+		System.out.print("Bodas de Esmeralda");	
+		 }else if(anos==50){
+		System.out.println("Bodas de Ouro");	
+		 }else{
+		System.out.print("Nao sei informar!");
+		 }
+}
+}
