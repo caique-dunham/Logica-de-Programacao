@@ -1,0 +1,24 @@
+opyright (c) 2026 Caíque Dunham
+
+Todos os direitos reservados.
+
+Este código é disponibilizado apenas para visualização.
+Não é permitido copiar, modificar, distribuir ou utilizar este código, total ou parcialmente, sem autorização prévia por escrito do autor.
+  
+Faça um programa em java que receba um valor
+inteiro n e mostre na tela os números inteiros de n
+até 0, da seguinte forma.
+Ex: 10 9 8 7 6 5 4 3 2 1 0
+  
+package javaaula;
+import java.util.Scanner;
+public class javaaula5 {
+	public static void main(String[] args) {
+Scanner entrada = new Scanner(System.in);
+System.out.println("Numero Inteiro:");
+int n=entrada.nextInt();
+while(n>0){
+System.out.println(n-=1);	
+}
+}
+}
