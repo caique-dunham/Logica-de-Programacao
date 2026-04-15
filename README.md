@@ -13,8 +13,8 @@ problemas computacionais.
 - [ ] Vetores e Matrizes (Arrays)
 - [ ] Funções e Procedimentos
 ## ️ Tecnologias e Ferramentas
-* **Linguagem Principal:** [Java]
-* **Editor/IDE:** [Eclipse]
+* **Linguagem Principal:** [Java,Python]
+* **Editor/IDE:** [Eclipse,VsCode]
 * **Plataforma:** GitHub
 ---
 ## 📂 Como navegar no repositório
