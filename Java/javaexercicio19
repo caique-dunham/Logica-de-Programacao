@@ -1,0 +1,26 @@
+Copyright (c) 2026 Caíque Dunham
+
+Todos os direitos reservados.
+
+Este código é disponibilizado apenas para visualização.
+Não é permitido copiar, modificar, distribuir ou utilizar este código, total ou parcialmente, sem autorização prévia por escrito do autor.
+
+Escreva uma expressão lógica em Java que verifique se 
+uma variável int nota é menor que 0 ou maior que 10. 
+Essa lógica é muito usada para validar se uma nota digitada é inválida.
+
+package aula;
+import java.util.Scanner;
+public class aulaseis {
+
+	public static void main(String[] args) {
+		Scanner entrada=new Scanner(System.in);
+		System.out.print("Nota:");
+		int x = entrada.nextInt();
+		if(x<0 || x>10) {
+		System.out.println("Nota Inválida");
+		}else {
+		System.out.println("Nota Válida");
+		}
+}
+}
