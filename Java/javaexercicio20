@@ -1,0 +1,24 @@
+Copyright (c) 2026 Caíque Dunham
+
+Todos os direitos reservados.
+
+Este código é disponibilizado apenas para visualização.
+Não é permitido copiar, modificar, distribuir ou utilizar este código, total ou parcialmente, sem autorização prévia por escrito do autor.
+
+package aula;
+import java.util.Scanner;
+public class aulaseis {
+
+	public static void main(String[] args) {
+		Scanner entrada=new Scanner(System.in);
+		System.out.print("Nota:");
+		int nota= entrada.nextInt();
+		System.out.print("Presenca:");
+		int presenca=entrada.nextInt();
+		if(nota>=7 && presenca>60) {
+		System.out.println("Aluno Aprovado");
+		}else {
+		System.out.println("Aluno Reprovado");
+		}
+}
+}
