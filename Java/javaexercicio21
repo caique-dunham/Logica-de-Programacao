@@ -1,0 +1,22 @@
+Copyright (c) 2026 Caíque Dunham
+
+Todos os direitos reservados.
+
+Este código é disponibilizado apenas para visualização.
+Não é permitido copiar, modificar, distribuir ou utilizar este código, total ou parcialmente, sem autorização prévia por escrito do autor.
+
+package aula;
+import java.util.Scanner;
+public class aulaseis {
+
+	public static void main(String[] args) {
+		Scanner entrada=new Scanner(System.in);
+		boolean soloUmido=false;
+		boolean previsaoChuva=false;
+		if(!(soloUmido || previsaoChuva)){
+		System.out.print("Ligar sistema de Irrigacao");	
+        }else{
+        System.out.print("Manter sistema Desligado");	
+        }
+}
+}
